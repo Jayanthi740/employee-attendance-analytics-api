@@ -1,0 +1,30 @@
+# Environment variables and secrets
+
+.env
+.env.*
+
+# Allow an example configuration file
+
+!.env.example
+
+# Python virtual environments
+
+.venv/
+venv/
+env/
+
+# Python cache
+
+**pycache**/
+*.py[cod]
+
+# IDE settings
+
+.idea/
+.vscode/
+
+# Test artifacts
+
+.pytest_cache/
+.coverage
+htmlcov/
